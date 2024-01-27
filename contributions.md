@@ -5,7 +5,7 @@ Thank you for considering contributing to the Aradhana-Platform open-source proj
 ### Steps to Contribute:
 
 1. **Fork the Repository:**
-   - Navigate to the [Aradhana-Platform GitHub repository](https://github.com/Aradhana-Platform/).
+   - Navigate to the [Aradhana-Platform GitHub repository](https://github.com/bijay-develops/Aradhana-Platform).
    - Click on the "Fork" button in the top right corner of the page.
    - This will create a copy of the repository in your GitHub account.
 
