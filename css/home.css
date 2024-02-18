@@ -5,15 +5,19 @@ body{
     font-family: 'Merriweather', serif;
 }
 
+.theme{
+    padding-top: 30px;
+}
 .TopContainer {
     background-color: #e6dfaf;
     position: relative;
-    padding-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 h1{
     color: #66bfbf;
-    font-size: 562.5%;
+    font-size: 500.5%;
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
 }
@@ -41,17 +45,24 @@ h3{
 
 .TopContainer p {
     font-size: 2.5rem;
+    max-width: 1366px;
 }
 
 .profileimg {
     margin-top: 50px;
-    width: 11rem;
-    border-radius: 50%;
+    width: 30rem;
+    border-radius: 100%;
 }
 
 .introduction {
     width: 30%;
     margin: auto;
+}
+
+.bible_intro {
+  width: 60%;
+  margin: auto;
+  font-size: 15px;
 }
 
 hr{
@@ -119,3 +130,88 @@ hr{
     font-size: 0.75rem;
     padding: 20px 0px;
   }
+
+  /* NavBar start */
+  .horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .A {
+    float: left ;
+    margin: auto 0px;
+    width: 5%; 
+    padding: 0px 30px;
+  }
+  
+  .A a {
+    display: block;
+    padding: 8px;
+  }
+
+  .navbar{
+    margin: 20px auto auto 400px;
+    position: fixed;
+    padding-top: 0px;
+    border: 0px solid;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .logo{
+    margin: 20px auto auto 20px;
+    position: fixed;
+    padding-top: 0px;
+    border: 0px solid;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* NavBar ends */
+
+  @media (max-width:1000px) {
+    .navbar{
+      font-size: 16px;
+      margin: 20px auto auto 250px;
+      position: relative;
+    }
+}
+  
+  @media (max-width:861px) {
+    .navbar{
+      font-size: 16px;
+      margin: 20px auto auto 200px;
+      position: relative;
+    }
+}
+
+
+@media (max-width:768px) {
+    .navbar{
+        font-size: 16px;
+        margin: 20px auto auto 50px;
+        position: relative;
+    }
+    .logo{
+      margin: 20px auto auto 10px;
+      position: relative;
+    }
+}
+
+@media (max-width:615px) {
+  .navbar{
+    font-size: 18px;
+    margin: 20px auto auto 0px;
+    position: relative;
+  }
+  .horizontal{
+    margin: 10px;
+  }
+  .A{
+    margin:5px;
+  }
+  
+  }
+
+
